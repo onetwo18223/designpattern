@@ -1,4 +1,4 @@
-package com.bhh.openclose;
+package com.bhh.principle.openclose;
 
 
 /**
