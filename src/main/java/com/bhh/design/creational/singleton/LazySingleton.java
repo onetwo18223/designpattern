@@ -4,7 +4,8 @@ import java.io.Serializable;
 
 /**
  * @author bhh
- * @description 懒汉式单例模式
+ * @description 饿汉式单例模式
+ * 可以使用21到23行避免反射破坏
  * @date Created in 2021-04-23 8:46
  * @modified By
  */

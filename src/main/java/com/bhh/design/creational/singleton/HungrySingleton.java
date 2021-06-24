@@ -6,7 +6,8 @@ import java.io.Serializable;
 
 /**
  * @author bhh
- * @description 饿汉式单例模式
+ * @description 懒汉式单例模式
+ * 无法避免反射破坏
  * @date Created in 2021-04-23 9:01
  * @modified By
  */
