@@ -8,4 +8,5 @@ package com.bhh.design.structural.proxy.dynamicproxy.jdk;
  */
 public interface ICup {
     void drink();
+    void buy();
 }

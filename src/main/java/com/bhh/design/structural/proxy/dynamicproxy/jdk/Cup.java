@@ -12,4 +12,9 @@ public class Cup implements ICup{
     public void drink(){
         System.out.println("喝水");
     }
+
+    @Override
+    public void buy() {
+        System.out.println("买杯子");
+    }
 }

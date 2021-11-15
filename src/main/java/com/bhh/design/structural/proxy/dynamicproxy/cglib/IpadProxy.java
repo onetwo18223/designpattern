@@ -52,6 +52,4 @@ public class IpadProxy implements MethodInterceptor {
     private void beforeMethod() {
         System.out.println("购买ipad");
     }
-
-
 }

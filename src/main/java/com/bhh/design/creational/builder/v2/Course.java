@@ -34,6 +34,7 @@ public class Course {
         this.courseQA = builder.courseQA;
     }
 
+    // 定义静态内部类
     public static class CourseBuilder{
         private String courseName;
         private String courseNote;

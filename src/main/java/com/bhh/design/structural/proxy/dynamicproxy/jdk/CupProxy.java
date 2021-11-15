@@ -41,6 +41,10 @@ public class CupProxy implements InvocationHandler {
         return null;
     }
 
+    /**
+     * 代理执行器
+     * @return
+     */
     public Object executor(){
         return Proxy.newProxyInstance(this.getClass().getClassLoader(),
                 cup.getClass().getInterfaces(), this);

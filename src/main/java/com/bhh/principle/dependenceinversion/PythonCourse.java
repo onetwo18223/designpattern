@@ -10,7 +10,6 @@ import lombok.extern.slf4j.Slf4j;
  */
 @Slf4j
 public class PythonCourse implements ICourse{
-
     @Override
     public void studyCourse() {
         System.out.println("学习了Python课程");
